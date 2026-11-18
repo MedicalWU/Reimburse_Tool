@@ -1,0 +1,8 @@
+# 运行/打包依赖（Python 3.9.x）
+# 注意：全部为纯本地处理，无网络请求、无遥测
+
+PyMuPDF==1.26.5      # PDF 渲染、图片转页、逐页合并
+Pillow==11.3.0       # 缩略图与图片解码
+pillow-heif==1.1.1   # iPhone HEIC/HEIF 支持
+tkinterdnd2==0.7.0   # 文件/文件夹拖拽导入
+pyinstaller==6.22.3  # 打包单文件 exe
